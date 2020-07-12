@@ -88,7 +88,7 @@ textarea {
    ========================================================================== */
 
 .content-wrapper {
-  widith: 90%;
+  width: 90%;
   margin: 50px 0;
 }
 
@@ -358,8 +358,12 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet styles here */
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */
 }
 
 @media print,
